@@ -1,3 +1,5 @@
-<h3>Dedica moltes hores</h3>
-
-Un mínim de 30 hores a la setmana. Si no en tens prou, hauràs de dedicar-li més hores. Al principi sembla impossible, però notaràs una millora ràpidament.
+<div *ngFor="let tip of tips">
+    <h3>{{ tip.title }}</h3>
+    <p>{{ tip.description }}</p>
+    <br>
+</div>
