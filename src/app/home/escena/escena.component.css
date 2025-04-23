@@ -23,6 +23,12 @@ button {
     border-radius: 3px;
 }
 
+.dot-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -39,9 +45,14 @@ body {
 .card-body {
     display: flex;
     flex-direction: column;
-    min-height: 100px;
+    min-height: 300px;
     height: auto;
     padding: 2rem 1rem;
+    font-family: sans-serif;
+}
+
+p{
+    color: grey;
 }
 
 .svg-wrapper {

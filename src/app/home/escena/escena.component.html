@@ -4,9 +4,10 @@
         <img [src]="currentTip.image" class="card-img-top" alt="Person on top of hourglass/Person using a laptop/Person meditating" *ngIf="currentTip.image">
     </div>
     <div class="card-body">
-      <h5 class="card-title">{{ currentTip.title }}</h5>
+      <h5 class="card-title"><strong>{{ currentTip.title }}</strong></h5><br>
       <p class="card-text">{{ currentTip.description }}</p>
   
+    <div class="dot-box">
     <div class="d-flex justify-content-start mt-5">
         <button 
           *ngFor="let tip of tips; let i = index"
@@ -26,6 +27,7 @@
         </button>
         
       </div>
+    </div>
     </div>
   </div>
   
