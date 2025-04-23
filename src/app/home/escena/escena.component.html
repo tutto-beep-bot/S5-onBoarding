@@ -1,4 +1,5 @@
-  <div class="card" style="width: 20rem;" *ngIf="currentTip">
+
+  <div class="card d-flex flex-column" style="width: 20rem;" *ngIf="currentTip">
     <div [ngStyle]="{ 'background-color': currentTip.bgcolor }" class="svg-wrapper">
         <img [src]="currentTip.image" class="card-img-top" alt="Person on top of hourglass/Person using a laptop/Person meditating" *ngIf="currentTip.image">
     </div>
@@ -20,12 +21,11 @@
         ←
         </button>
         <button class="btn btn-dark" (click)="nextTip()" *ngIf="currentStep < 2">
-          →
+        →
         </button>
         
       </div>
     </div>
   </div>
-
   
   

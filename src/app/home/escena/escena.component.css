@@ -1,5 +1,7 @@
 button {
     border-radius: 50%;
+    padding: 1rem;
+    border: 0.1rem solid black;
 }
 
 .dot {
@@ -11,3 +13,34 @@ button {
     display: inline-block;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 3rem 2rem;
+}
+
+.card {
+    border-radius: 35px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    height: auto;
+    padding: 2rem 1rem;
+}
+
+.svg-wrapper {
+    height: 25rem;
+    padding-top: 5rem;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+
+.active {
+    background-color: black;
+}
