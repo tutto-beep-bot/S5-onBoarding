@@ -27,4 +27,10 @@ export class EscenaComponent {
       this.currentStep--;
     }
   }
+
+  goToStep(step: number): void {
+    this.currentStep = step;
+  }
 }
+
+
