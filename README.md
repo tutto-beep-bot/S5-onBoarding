@@ -2,6 +2,17 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
 
+## Digital Onboarding Card Project
+
+This is a sleek and interactive onboarding interface built with Angular and Bootstrap. A card element shows tips and steps for better production.
+
+This project is part of a learning journey focused on UI/UX design, responsive layouts, and dynamic animations using `@angular/animations`.
+
+### 🔧 Built With
+- **Angular 19** – modern web dev magic.
+- **Bootstrap** – for a clean, responsive layout.
+- **Angular Animations** – to make every card flip, fade, and slide with purpose.
+
 ## Development server
 
 To start a local development server, run:
