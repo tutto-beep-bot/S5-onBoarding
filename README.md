@@ -4,7 +4,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Digital Onboarding Card Project
 
-This is a sleek and interactive onboarding interface built with Angular and Bootstrap. A card element shows tips and steps for better production.
+This is an interactive onboarding interface built with Angular and Bootstrap where a card element shows the User tips and steps for better production.
 
 This project is part of a learning journey focused on UI/UX design, responsive layouts, and dynamic animations using `@angular/animations`.
 
