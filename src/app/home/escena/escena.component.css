@@ -51,6 +51,10 @@ body {
     font-family: sans-serif;
 }
 
+.card-text {
+    min-height: 130px;
+}
+
 p{
     color: grey;
 }
