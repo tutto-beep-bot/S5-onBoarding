@@ -8,7 +8,7 @@ This is an interactive onboarding interface built with Angular and Bootstrap whe
 
 This project is part of a learning journey focused on UI/UX design, responsive layouts, and dynamic animations using `@angular/animations`.
 
-### 🔧 Built With
+### Built With
 - **Angular 19** – modern web dev magic.
 - **Bootstrap** – for a clean, responsive layout.
 - **Angular Animations** – to make every card flip, fade, and slide with purpose.
